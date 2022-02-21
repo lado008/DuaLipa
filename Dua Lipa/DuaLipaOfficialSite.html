@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles\menustyle.css">
+<link rel="stylesheet" href="styles\DuaLipaOfficialSite.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Dua Lipa Site</title>
+</head>
+
+<body>
+    <div id="menu" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div><a class="dropbtn" href="DuaLipaOfficialSite.html">Dua Lipa</a></div>
+        <div><a class="dropbtn" href="htmlfiles\music.html">Music</a></div>
+        <div><a class="dropbtn" href="htmlfiles\tickets.html">Tickets</a></div>
+        <div><a class="dropbtn" href="htmlfiles\merche.html">Merche</a></div>
+        <div><a class="dropbtn" href="htmlfiles\cooperation.html">Cooperation</a></div>
+        
+        </div>
+<span id="menu" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+
+
+
+<div id="welcome">
+
+
+
+    <h1>Dua Lipa's Official Page</h1>
+<h3>Subscribe to our newsletter</h3>
+
+<form action="/action_page.php">
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+    <input type="submit" id="SignUpbutton" value="Sign Up">
+  </form>
+
+    <h3>Follow Dua on Social Media: </h3>
+
+    <a href="https://www.facebook.com/DuaLipa/" target="blank">
+    <img src="images\icons8-facebook-48.png" /></a>
+
+    <a href="https://www.instagram.com/dualipa/?ref=https://www.dualipa.com/" target="blank">
+    <img src="images\icons8-instagram-48.png"/></a>
+
+    <a href="https://twitter.com/dualipa" target="blank">
+    <img src="images\icons8-twitter-circled-48.png"/></a>
+</div>
+
+<script>
+    function openNav() {
+      document.getElementById("menu").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("menu").style.width = "0";
+    }
+    </script>
+</body>
+
+</html>
