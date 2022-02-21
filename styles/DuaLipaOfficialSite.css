@@ -1,0 +1,60 @@
+* {
+    font-family: Dancing Script, sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+/*menu color */
+.sidenav a {
+    color: #93ccf1;
+  }
+#menu {
+    color: #93ccf1;
+}
+
+
+body {
+    background: url(../images/dua-lipa.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+}
+
+#welcome{
+    position: absolute;
+    bottom: 5%;
+    left: 14%;
+}
+
+
+
+input {
+    border-radius: 1rem;
+    border: none;
+    padding: 12px 12px;
+    color: #c12b2c;
+    font-size: 25px;
+   
+}
+
+#SignUpbutton {
+    border-radius: 5rem;
+    background-color: #93ccf1;
+    font-weight: 600;
+    font-size: 23px;
+
+}
+
+#SignUpbutton:hover {
+    background-color: #c12b2c;
+    color:#93ccf1;
+    border: 1px solid #93ccf1;
+}
+
+img:hover{
+    transition: transform .2s;
+    transform: scale(1.2);
+}
